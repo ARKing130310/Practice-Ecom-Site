@@ -1,0 +1,520 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.custom-border{
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.navbar-item a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.6);
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn{
+    background-color: white;
+    border: none;
+}
+.uperDiv{
+    margin-top: 6rem;
+}
+.newCollection{
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+.main-Heading{
+    font-size: 60px;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+.main-Para{
+    font-size: 19px;
+    font-weight:400;
+    color:rgba(0,0,0,0.5) ;
+    margin-top: 10px;
+}
+.shop-btn{
+    background-color: rgb(37, 36, 36);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    color: white;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.leran-btn{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.rating-div h3 {
+    font-weight: bolder;
+}
+.rating-div p {
+    color:rgba(0,0,0,0.5);  
+    font-weight: 400;
+} 
+.mainImg {
+    position: relative;            
+    display: inline-block; 
+}
+.mainImg img {
+    width: 100%;                   
+    border-radius: 30px;        
+    display: block;
+}
+.mainx-div {
+    position: absolute;            
+    top: -20px;                     
+    right: -20px;                   
+    background: #fff;               
+    padding: 15px 18px;
+    border-radius: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    text-align: center;
+}
+.mainx-div h4 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+.mainx-div p {
+    margin: 0;
+    font-size: 12px;
+    color: #777;
+}
+.custom-style{
+    margin-top: 5%;
+    padding-top:3%;
+    padding-bottom:3%;
+}
+.btn-look{
+    padding: 15px;
+    background-color:rgba(0,0,0,0.1);
+    border-radius: 15px;
+    border: none;
+    margin-left:40%;
+}
+.custom-style h5 {
+    margin-left:30% ;
+}
+.custom-style p {
+    margin-left: 20%;
+    margin-top: 4%;
+    color: #777;
+}
+.feature-div{
+    margin-top: 7%;
+}
+.feature-div h2 {
+    margin-left: 40%;
+    font-weight: bold;
+}
+.feature-div p {
+    margin-left: 25%;
+    margin-top: 1%;
+    color: #777;
+}
+.feature-div p span {
+    margin-left: 30%;
+    color: #777;
+}
+.custom-img {
+    height: 350px;         
+    object-fit: cover;      
+    width: 100%; 
+    border-radius: 20px;           
+}
+.card-tittle button {
+    font-size: 12px;
+    border: none;
+    border-radius:5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    background-color:rgba(0,0,0,0.1);
+    margin-left: 2%;
+}
+.custom-card{
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.custom-card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2)
+}
+.card-body span {
+    font-size: 17px;
+    font-weight: bold;
+}
+.card-text{
+    color: #777;
+}
+.card-body h4 s {
+    font-size: 14px;
+}
+.custom-btn{
+    font-weight: bold;
+    margin-left: 40%;
+}
+.best-div h2{
+    margin-left: 40%;
+    font-weight: bold;
+}
+.best-div p {
+    margin-left: 36%;
+    color: #777;
+}
+.custom-card-best{
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.custom-card-best:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2)
+}
+.custom-img-best {
+    height: 450px;         
+    object-fit: cover;      
+    width: 100%; 
+    border-radius: 20px;           
+}
+footer h2 {
+    font-weight: bold;
+    margin-left: 40%;
+}
+footer p {
+    color: #777;
+    margin-left: 33%;
+}
+footer p span {
+    margin-left: 18%;
+}
+.custom-container{
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+footer input {
+    max-width: 400px;
+    margin-left: 30%;
+}
+/* allProducts Index CSS */
+.custom-background {
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.custom-p {
+    color: #777;
+}
+.custom-design{
+    margin-top: 5%;
+}
+.custom-text{
+    font-weight: bolder;
+    font-size: 30px;
+}
+/* Register Form CSS */
+.form {
+    flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    background-color: #afabab;
+    color: #fff;
+    border: 1px solid #333;
+    display: flex;
+}
+
+.title {
+    font-weight: 900;
+    letter-spacing: -1px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    color: #070707;
+    font-size: 28px;
+}
+
+.title::before {
+    height: 18px;
+    width: 18px;
+}
+
+.title::after {
+    height: 18px;
+    animation: pulse 1s linear infinite;
+    width: 18px;
+}
+
+.title::before,
+.title::after {
+    content: "";
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    left: 0px;
+    background-color: #080808;
+    position: absolute;
+}
+
+.message, 
+.signin {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14.5px;
+}
+
+.signin {
+    text-align: center;
+}
+
+.signin a:hover {
+    text-decoration: underline rgb(8, 8, 8);
+}
+
+.signin a {
+    color: #080808;
+    font-weight: bolder;
+}
+
+.flex {
+    display: flex;
+    gap: 6px;
+    width: 100%;
+}
+
+.form label {
+    position: relative;
+}
+
+.form label .input {
+    color: #fff;
+    width: 100%;
+    padding: 20px 05px 05px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.form label .input + span {
+        color: rgba(255, 255, 255, 0.5);
+        position: absolute;
+        left: 10px;
+        top: 0px;
+        font-size: 0.9em;
+        cursor: text;
+        transition: 0.3s ease;
+}
+
+.form label .input:placeholder-shown + span {
+    top: 12.5px;
+    font-size: 0.9em;
+}
+
+.form label .input:focus + span,
+.form label .input:valid + span {
+    color: #1b1b1b;
+    top: 0px;
+    font-size: 0.7em;
+    font-weight: 600;
+}
+
+.input {
+    font-size: medium;
+}
+
+.submit {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    transform: .3s ease;
+    background-color: #020202;
+}
+
+.submit:hover {
+    background-color: #37383896;
+}
+
+@keyframes pulse {
+    from {
+    transform: scale(0.9);
+    opacity: 1;
+    }
+
+    to {
+    transform: scale(1.8);
+    opacity: 0;
+    }
+}
+/* Mobile screens (767px ya usse chhota) */
+@media (max-width: 100px) {
+    .custom-container-reg {
+    margin-top: 12%; /* mobile ka zyada margin */
+    }
+}
+/*  Sign In*/   
+.custom-container-reg{
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+.container-reg {
+    background: #F8F9FD;
+    background: linear-gradient(0deg, rgb(233, 231, 231) 0%, rgb(237, 238, 240) 100%);
+    border-radius: 40px;
+    padding: 25px 35px;
+    border: 5px solid rgb(235, 231, 231);
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 30px 30px -20px;
+    margin: 20px;
+    max-width: 350px;
+}
+
+.heading-reg {
+    font-weight: 900;
+    font-size: 35px;
+    color: rgb(1, 6, 8);
+    text-align: center;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.form .input {
+    background: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-top: 15px;
+    box-shadow: #cff0ff 0px 10px 10px -5px;
+    border-inline: 2px solid transparent;
+    width: 100%;
+}
+
+.form .input::-moz-placeholder {
+    color: rgb(170, 170, 170);
+}
+
+.form .input::placeholder {
+    color: rgb(170, 170, 170);
+}
+
+.form .input:focus {
+    border-inline: 3px solid #fff;
+    outline: none;
+}
+
+.form .forgot-password {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: block;
+}
+
+.form .forgot-password a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14.5px;
+}
+
+.form .login-button {
+    width: 100%;
+    font-weight: bold;
+    background: linear-gradient(45deg, rgb(16, 137, 211) 0%, rgb(18, 177, 209) 100%);
+    color: white;
+    padding-block: 15px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 20px 10px -15px;
+    border: none;
+    transition: all 0.2s ease-in-out;
+    display: block;
+}
+
+.form .login-button:hover {
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 23px 10px -20px;
+    transform: scale(1.03);
+}
+
+.form .login-button:active {
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 15px 10px -10px;
+    transform: scale(0.95);
+}
+
+.social-account-container {
+    margin-top: 25px;
+}
+
+.social-account-container .title {
+    text-align: center;
+    font-size: 10px;
+    color: rgb(170, 170, 170);
+    display: block;
+}
+
+.social-account-container .social-accounts {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.social-account-container .social-accounts .social-button {
+    border: 5px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    width: 40px;
+    aspect-ratio: 1;
+    display: grid;
+    place-content: center;
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 12px 10px -8px;
+    transition: all 0.2s ease-in-out;
+    background: linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(112, 112, 112) 100%);
+}
+
+.social-account-container .social-accounts .social-button .svg {
+    margin: auto;
+    fill: white;
+}
+
+.social-account-container .social-accounts .social-button:hover {
+    transform: scale(1.2);
+}
+
+.social-account-container .social-accounts .social-button:active {
+    transform: scale(0.9);
+}
+
+.agreement {
+    text-align: center;
+    margin-top: 15px;
+    display: block;
+}
+
+.agreement a {
+    color: #0099ff;
+    font-size: 9px;
+    text-decoration: none;
+}
