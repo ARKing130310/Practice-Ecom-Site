@@ -60,3 +60,19 @@ const heartBtn = document.getElementById('showToast');
       heartIcon.classList.add('fa-regular');
     }
   });
+  // Handle form submit
+  document.getElementById('customerForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const phone = document.getElementById('phone').value;
+
+    // alert(`Name: ${name}\nEmail: ${email}\nPhone: ${phone}`);
+  });
+// Order Created
+const toastE2 = document.querySelector('#toast');
+  const toast2 = new bootstrap.Toast(toastEl);
+
+  document.getElementById('showToast-form').addEventListener('click', () => {
+    toast.show();
+  });
